@@ -1,0 +1,26 @@
+{
+  "name": "zline",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.32.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter=@zline/examples dev"
+  },
+  "keywords": [
+    "canvas",
+    "line",
+    "animation"
+  ],
+  "author": "zhuyue",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

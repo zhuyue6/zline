@@ -1,0 +1,1 @@
+export { createLines, destory } from './instance'

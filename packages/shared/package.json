@@ -1,0 +1,15 @@
+{
+  "name": "@zline/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.esm.js"
+    },
+    "./src":{
+      "import": "./src/index.ts"
+    }
+  }
+}
